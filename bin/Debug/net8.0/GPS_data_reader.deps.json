@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "GPS_data_reader/1.0.0": {
+        "runtime": {
+          "GPS_data_reader.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GPS_data_reader/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

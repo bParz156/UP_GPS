@@ -1,0 +1,15 @@
+C:\Users\Dell\Desktop\Studia\semestr 5\UP\GPS\GPS_data_reader\GPS_data_reader\bin\Debug\net8.0\GPS_data_reader.exe
+C:\Users\Dell\Desktop\Studia\semestr 5\UP\GPS\GPS_data_reader\GPS_data_reader\bin\Debug\net8.0\GPS_data_reader.deps.json
+C:\Users\Dell\Desktop\Studia\semestr 5\UP\GPS\GPS_data_reader\GPS_data_reader\bin\Debug\net8.0\GPS_data_reader.runtimeconfig.json
+C:\Users\Dell\Desktop\Studia\semestr 5\UP\GPS\GPS_data_reader\GPS_data_reader\bin\Debug\net8.0\GPS_data_reader.dll
+C:\Users\Dell\Desktop\Studia\semestr 5\UP\GPS\GPS_data_reader\GPS_data_reader\bin\Debug\net8.0\GPS_data_reader.pdb
+C:\Users\Dell\Desktop\Studia\semestr 5\UP\GPS\GPS_data_reader\GPS_data_reader\obj\Debug\net8.0\GPS_data_reader.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell\Desktop\Studia\semestr 5\UP\GPS\GPS_data_reader\GPS_data_reader\obj\Debug\net8.0\GPS_data_reader.AssemblyInfoInputs.cache
+C:\Users\Dell\Desktop\Studia\semestr 5\UP\GPS\GPS_data_reader\GPS_data_reader\obj\Debug\net8.0\GPS_data_reader.AssemblyInfo.cs
+C:\Users\Dell\Desktop\Studia\semestr 5\UP\GPS\GPS_data_reader\GPS_data_reader\obj\Debug\net8.0\GPS_data_reader.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Desktop\Studia\semestr 5\UP\GPS\GPS_data_reader\GPS_data_reader\obj\Debug\net8.0\GPS_data_reader.sourcelink.json
+C:\Users\Dell\Desktop\Studia\semestr 5\UP\GPS\GPS_data_reader\GPS_data_reader\obj\Debug\net8.0\GPS_data_reader.dll
+C:\Users\Dell\Desktop\Studia\semestr 5\UP\GPS\GPS_data_reader\GPS_data_reader\obj\Debug\net8.0\refint\GPS_data_reader.dll
+C:\Users\Dell\Desktop\Studia\semestr 5\UP\GPS\GPS_data_reader\GPS_data_reader\obj\Debug\net8.0\GPS_data_reader.pdb
+C:\Users\Dell\Desktop\Studia\semestr 5\UP\GPS\GPS_data_reader\GPS_data_reader\obj\Debug\net8.0\GPS_data_reader.genruntimeconfig.cache
+C:\Users\Dell\Desktop\Studia\semestr 5\UP\GPS\GPS_data_reader\GPS_data_reader\obj\Debug\net8.0\ref\GPS_data_reader.dll
