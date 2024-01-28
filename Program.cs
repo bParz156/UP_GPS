@@ -1,4 +1,6 @@
-﻿namespace GPS_data_reader
+﻿using System.Globalization;
+
+namespace GPS_data_reader
 {
     class Program {     
 
@@ -65,6 +67,10 @@
             string [] splittedLine=line.Split(',');
             if(splittedLine[0].Equals("$GPGGA"))
             {
+                for(int i=0; i<splittedLine.Length; i++)
+                {
+                    Console.WriteLine(i+" "+splittedLine[i]);
+                }
                 string lat=szerokosc(splittedLine[2]);
                 string latInfo="szerokosc: "+lat+" "+splittedLine[3];
                 
@@ -72,11 +78,12 @@
                 string longiInfo="dlugosc: "+longi+" "+splittedLine[5];
 
                 string czas="czas odczytu: "+czasOdczytu(splittedLine[1], splittedLine[5]=="E");
+                string wysokosc="wysokosc: "+wys(splittedLine[9], splittedLine[11])+" m";
                 if(int.Parse(splittedLine[7])>=4)
                     Console.WriteLine("Odczytana lokalizacja ma szanse byc poprawna");
                 else 
                     Console.WriteLine("Pomiaru dokonala niewystarczajaca licba satelitow, aby moc uznac go za poprawny, jednak oto on:");
-                Console.WriteLine("Odczytano nastepujace informacje: \n"+czas+"\n"+latInfo+"\n"+longiInfo+"\n");
+                Console.WriteLine("Odczytano nastepujace informacje: \n"+czas+"\n"+latInfo+"\n"+longiInfo+"\n"+wysokosc+"\n");
                 Console.WriteLine("Link do mapy: "+link(lat, splittedLine[3], longi, splittedLine[5]));
                 return true;
             }
@@ -96,7 +103,7 @@
 
         private string dlugosc (string line)
         {
-            int d=Int32.Parse(line.Substring(1,2));
+            int d=int.Parse(line.Substring(1,2));
             przesuniecieCzasowe=d/15;
             return line.Substring(1,2)+","+line.Substring(3,2);
         }
@@ -112,6 +119,13 @@
             link += longi;
 
             return link;
+        }
+
+        public string wys(string wysokosc1, string wysokosc2)
+        {
+            float h1=float.Parse(wysokosc1, CultureInfo.InvariantCulture.NumberFormat);
+            float h2=float.Parse(wysokosc2, CultureInfo.InvariantCulture.NumberFormat);
+            return ""+(h1-h2);
         }
 
     }
