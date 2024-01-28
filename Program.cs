@@ -67,11 +67,7 @@ namespace GPS_data_reader
             string [] splittedLine=line.Split(',');
             if(splittedLine[0].Equals("$GPGGA"))
             {
-                for(int i=0; i<splittedLine.Length; i++)
-                {
-                    Console.WriteLine(i+" "+splittedLine[i]);
-                }
-                string lat=szerokosc(splittedLine[2]);
+                 string lat=szerokosc(splittedLine[2]);
                 string latInfo="szerokosc: "+lat+" "+splittedLine[3];
                 
                 string longi=dlugosc(splittedLine[4]);
